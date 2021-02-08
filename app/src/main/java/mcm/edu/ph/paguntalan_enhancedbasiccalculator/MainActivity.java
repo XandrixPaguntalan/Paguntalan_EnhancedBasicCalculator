@@ -76,28 +76,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     public static double doAddition(double operand1, double operand2){
-        double answer =0.0;
-        answer = operand1 + operand2;
-        return answer;
+        return operand1 + operand2;
     }
     public static double doSubtraction(double operand1, double operand2){
-        double answer =0.0;
-        answer = operand1 - operand2;
-        return answer;
+        return operand1 - operand2;
     }
     public static double doMultiplication(double operand1, double operand2){
-        double answer =0.0;
-        answer = operand1 * operand2;
-        return answer;
+        return operand1 * operand2;
     }
     public static double doDivision(double operand1, double operand2){
-        double answer =0.0;
-        answer = operand1 / operand2;
-        return answer;
+        return operand1 / operand2;
     }
     public static double doModulo(double operand1, double operand2){
-        double answer =0.0;
-        answer = operand1 % operand2;
-        return answer;
+        return operand1 % operand2;
     }
 }
